@@ -50,11 +50,11 @@ export const TextInput = (props: Props) => {
       data-testid="input"
       style={{
         'border-top': '1px solid #eeeeee',
-        position: 'absolute',
+        position: 'fixed',
         left: '20px',
         right: '20px',
         bottom: '40px',
-        margin: 'auto',
+        //margin: 'auto',
         'z-index': 1000,
         'background-color': props.backgroundColor ?? defaultBackgroundColor,
         color: props.textColor ?? defaultTextColor,
